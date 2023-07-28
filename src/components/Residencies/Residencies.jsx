@@ -7,7 +7,7 @@ import { sliderSettings } from '../../utils/common'
 //here we calling every object returning by the map as card and also we will get a unique id called i which is assigned to key
 const Residencies = () => {
 return (
-    <section className="r-wrapper">
+    <section id='residencies' className="r-wrapper">
         <div className="paddings innerWidth r-container">
             <div className="r-head flexColStart">
                 <span className='orangeText'>Best Choices</span>
